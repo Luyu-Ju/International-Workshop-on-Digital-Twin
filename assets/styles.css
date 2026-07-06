@@ -182,7 +182,10 @@ a {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: transparent;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.05) 46%, rgba(7, 22, 18, 0.2)),
+    rgba(220, 232, 228, 0.14);
+  backdrop-filter: blur(2.5px);
 }
 
 .hero-inner {
