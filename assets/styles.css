@@ -286,6 +286,95 @@ a {
   max-height: 90px;
 }
 
+.registration-main {
+  background: #ffffff;
+  padding: 58px 28px 78px;
+}
+
+.registration-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  color: #0050a4;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.registration-panel h1 {
+  margin: 0 0 30px;
+  color: #0050a4;
+  font-size: 38px;
+  line-height: 1.12;
+}
+
+.registration-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 30px;
+  color: #0050a4;
+  font-size: 24px;
+  line-height: 1.15;
+  border-top: 3px solid #0068d8;
+  border-bottom: 3px solid #0068d8;
+}
+
+.registration-table th,
+.registration-table td {
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 2px solid #0068d8;
+}
+
+.registration-table th + th,
+.registration-table td + td {
+  border-left: 2px solid #0068d8;
+}
+
+.registration-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.registration-table th {
+  font-weight: 700;
+}
+
+.registration-notes {
+  margin: 0;
+  padding-left: 24px;
+  color: #0050a4;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.registration-notes li {
+  margin: 4px 0;
+}
+
+.registration-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+.registration-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 210px;
+  min-height: 58px;
+  padding: 12px 32px;
+  border-radius: 999px;
+  background: #0965b4;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 700;
+  box-shadow: 0 10px 22px rgba(0, 80, 164, 0.18);
+}
+
+.registration-button:hover {
+  background: #004f96;
+}
+
 .hero-video {
   position: absolute;
   inset: 0;
