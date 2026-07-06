@@ -186,6 +186,19 @@ a {
   background: #061f39;
 }
 
+.subpage-hero {
+  background:
+    linear-gradient(180deg, rgba(8, 24, 36, 0.05), rgba(8, 24, 36, 0.12)),
+    url("hkust-campus.svg") center center / cover no-repeat;
+}
+
+.subpage-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(0, 45, 80, 0.1);
+}
+
 .home-content {
   width: 100%;
   background: #ffffff;
