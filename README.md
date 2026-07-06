@@ -10,7 +10,7 @@ Static multi-page website for the International Workshop on Digital Twin.
 - `registration.html` - Registration
 - `programme.html` - Session & Programme
 - `venue.html` - Venue
-- `accommodation.html` - Accommodation
+- `accommodation.html` - Accommodatio
 
 ## GitHub Pages
 
