@@ -121,7 +121,8 @@ a {
   position: absolute;
   inset: 0 0 auto 0;
   border-bottom: 0;
-  background: transparent;
+  background: linear-gradient(180deg, rgba(20, 26, 24, 0.34), rgba(20, 26, 24, 0.12) 58%, rgba(20, 26, 24, 0));
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.18);
   z-index: 10;
 }
 
@@ -194,7 +195,7 @@ a {
 .home-hero-inner {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 43%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 100vw;
@@ -226,12 +227,12 @@ a {
 }
 
 .hero-date {
-  width: 100vw;
-  margin: 26px 0 0;
-  padding: 10px 20px 13px;
+  width: auto;
+  margin: 22px 0 0;
+  padding: 0;
   color: #ffffff;
-  background: rgba(95, 150, 170, 0.62);
-  backdrop-filter: blur(2px);
+  background: transparent;
+  backdrop-filter: none;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 30px;
   line-height: 1.25;
