@@ -146,9 +146,9 @@ a {
 
 .home-nav a:hover,
 .home-nav a.active {
-  color: #000000;
+  color: #f4d77e;
   border-bottom: 0;
-  text-shadow: none;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
 .hero {
@@ -200,16 +200,19 @@ a {
 }
 
 .home-hero h1 {
-  max-width: 1540px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 42px;
   color: #ffffff;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.16;
   font-weight: 700;
   text-align: center;
-  text-wrap: balance;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.48);
+}
+
+.home-hero h1 span {
+  display: block;
 }
 
 .hero-date {
@@ -217,7 +220,8 @@ a {
   margin: 26px 0 0;
   padding: 10px 20px 13px;
   color: #ffffff;
-  background: rgba(0, 96, 169, 0.92);
+  background: rgba(95, 150, 170, 0.62);
+  backdrop-filter: blur(2px);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 30px;
   line-height: 1.25;
@@ -475,7 +479,7 @@ h3 {
   }
 
   .home-hero h1 {
-    font-size: 38px;
+    font-size: 34px;
     padding: 0 24px;
   }
 
