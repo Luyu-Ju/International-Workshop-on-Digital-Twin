@@ -1,6 +1,6 @@
 # International Workshop on Digital Twin
 
-Static multi-page website for the International Workshop on Digital Twin.
+Static multi-page website for the International Workshop on Digital Twin
 
 ## Pages
 
