@@ -7,11 +7,10 @@ Static multi-page website for the International Workshop on Digital Twin.
 - `index.html` - Home
 - `committees.html` - Committees
 - `speakers.html` - Keynote & Plenary Speakers
-- `submission.html` - Submission
 - `registration.html` - Registration
 - `programme.html` - Session & Programme
 - `venue.html` - Venue
-- `accommodation.html` - Accommodation & Field Trip
+- `accommodation.html` - Accommodation
 
 ## Media
 
