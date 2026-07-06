@@ -6,3 +6,20 @@ document.querySelectorAll(".nav a").forEach((link) => {
     link.setAttribute("aria-current", "page");
   }
 });
+
+const navToggle = document.querySelector(".nav-toggle");
+const homeHeader = document.querySelector(".home-header");
+
+if (navToggle && homeHeader) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = homeHeader.classList.toggle("nav-open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.querySelectorAll(".home-nav a").forEach((link) => {
+    link.addEventListener("click", () => {
+      homeHeader.classList.remove("nav-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
