@@ -126,19 +126,21 @@ a {
 }
 
 .home-nav {
-  max-width: 1040px;
-  padding: 18px 24px 0;
+  max-width: 1320px;
+  padding: 22px 24px 0;
   justify-content: center;
-  gap: 14px;
+  gap: 24px;
+  flex-wrap: nowrap;
 }
 
 .home-nav a {
   color: #ffffff;
   border-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.15;
-  padding: 0 4px 10px;
+  padding: 0 0 10px;
   text-align: center;
+  white-space: nowrap;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.42);
 }
 
@@ -179,9 +181,7 @@ a {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background:
-    linear-gradient(90deg, rgba(0, 82, 143, 0.88) 0%, rgba(0, 82, 143, 0.72) 44%, rgba(174, 0, 16, 0.82) 100%),
-    radial-gradient(circle at 49% 45%, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 42%);
+  background: transparent;
 }
 
 .hero-inner {
@@ -195,19 +195,21 @@ a {
   position: relative;
   z-index: 2;
   width: 100%;
-  padding: 128px 0 0;
+  padding: 132px 0 0;
   text-align: center;
 }
 
 .home-hero h1 {
-  max-width: 1760px;
+  max-width: 1540px;
   margin: 0 auto;
   padding: 0 42px;
   color: #ffffff;
-  font-size: 62px;
-  line-height: 1.18;
+  font-size: 64px;
+  line-height: 1.16;
   font-weight: 700;
-  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+  text-align: center;
+  text-wrap: balance;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.48);
 }
 
 .hero-date {
@@ -460,6 +462,7 @@ h3 {
     justify-content: center;
     gap: 12px;
     padding-top: 18px;
+    flex-wrap: wrap;
   }
 
   .home-nav a {
@@ -472,7 +475,7 @@ h3 {
   }
 
   .home-hero h1 {
-    font-size: 42px;
+    font-size: 38px;
     padding: 0 24px;
   }
 
