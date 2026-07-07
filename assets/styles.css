@@ -413,6 +413,113 @@ a {
   background: #004f96;
 }
 
+.content-main {
+  background: #ffffff;
+  padding: 78px 28px 92px;
+}
+
+.content-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  color: #0050a4;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.content-panel h1 {
+  margin: 0 0 38px;
+  color: #0050a4;
+  font-size: 38px;
+  line-height: 1.15;
+}
+
+.section-icon {
+  display: inline-block;
+  margin-right: 18px;
+  color: #005cae;
+  font-family: "Aptos", "Segoe UI", sans-serif;
+  font-size: 34px;
+  vertical-align: 2px;
+}
+
+.committee-row {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.3fr);
+  gap: 46px;
+  color: #0050a4;
+  font-size: 25px;
+  line-height: 1.25;
+}
+
+.updating {
+  margin: 34px 0 0;
+  color: #0050a4;
+  font-size: 25px;
+}
+
+.speaker-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #0050a4;
+  font-size: 22px;
+  line-height: 1.25;
+  border: 1px solid #cdd9e4;
+  box-shadow: 0 8px 26px rgba(7, 47, 87, 0.08);
+}
+
+.speaker-table th {
+  background: #132f42;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.speaker-table th,
+.speaker-table td {
+  padding: 16px 20px;
+  border: 1px solid #cdd9e4;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.session-list {
+  display: grid;
+  gap: 24px;
+}
+
+.session-list p {
+  margin: 0;
+  color: #0050a4;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.venue-panel p,
+.accommodation-panel p {
+  margin: 0 0 22px;
+  color: #0050a4;
+  font-size: 23px;
+  line-height: 1.25;
+}
+
+.venue-panel a,
+.accommodation-panel a {
+  color: #004f96;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.hotel-block {
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 2px solid #0d6eb8;
+}
+
+.hotel-block h2 {
+  margin: 0 0 14px;
+  color: #0050a4;
+  font-size: 30px;
+}
+
 .hero-video {
   position: absolute;
   inset: 0;
