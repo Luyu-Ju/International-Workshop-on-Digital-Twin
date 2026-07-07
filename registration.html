@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Registration | International Workshop on Digital Twin</title>
-  <link rel="stylesheet" href="./assets/styles.css?v=27">
+  <link rel="stylesheet" href="./assets/styles.css?v=28">
 </head>
 <body data-page="registration" class="home-page">
   <header class="site-header home-header">
     <a class="home-brand" href="index.html" aria-label="HKUST">
       <img src="./assets/sponsors/hkust-logo.png" alt="The Hong Kong University of Science and Technology">
     </a>
-    <nav class="nav home-nav" aria-label="Primary navigation"><a data-page="home" href="index.html">Home</a><a data-page="committees" href="committees.html">Committees</a><a data-page="speakers" href="speakers.html">Keynote &amp; Plenary Speakers</a><a data-page="registration" href="registration.html">Registration</a><a data-page="programme" href="programme.html">Sessions &amp; Programme</a><a data-page="venue" href="venue.html">Venue</a><a data-page="accommodation" href="accommodation.html">Accommodation</a></nav>
+    <input class="nav-toggle-checkbox" type="checkbox" id="nav-toggle"><label class="nav-toggle" for="nav-toggle" aria-label="Toggle navigation">Menu</label>
+    <nav class="nav home-nav" id="primary-navigation" aria-label="Primary navigation"><a data-page="home" href="index.html">Home</a><a data-page="committees" href="committees.html">Committees</a><a data-page="speakers" href="speakers.html">Keynote &amp; Plenary Speakers</a><a data-page="registration" href="registration.html">Registration</a><a data-page="programme" href="programme.html">Sessions &amp; Programme</a><a data-page="venue" href="venue.html">Venue</a><a data-page="accommodation" href="accommodation.html">Accommodation</a></nav>
   </header>
 
   <section class="hero home-hero subpage-hero" aria-label="International Workshop on Digital Twin">
@@ -25,20 +26,18 @@
     <section class="registration-panel">
       <h1>Registration Fees</h1>
       <table class="registration-table">
-        <thead>
-          <tr>
-            <th>Category</th>
-            <th>Fee (HKD)</th>
-          </tr>
-        </thead>
         <tbody>
           <tr>
             <td>Regular delegate</td>
             <td>1500</td>
           </tr>
           <tr>
+            <td>Invited speaker</td>
+            <td>Free</td>
+          </tr>
+          <tr>
             <td>Student</td>
-            <td>500</td>
+            <td>Free</td>
           </tr>
         </tbody>
       </table>
@@ -54,6 +53,26 @@
       <div class="registration-action">
         <a class="registration-button" href="https://v.wjx.cn/vm/mQrsgY0.aspx#" target="_blank" rel="noopener">Registration</a>
       </div>
+
+      <section class="important-dates-panel" aria-labelledby="important-dates-title">
+        <h1 id="important-dates-title">Important Dates</h1>
+        <table class="important-dates-table">
+          <tbody>
+            <tr>
+              <td>Online Registration deadline</td>
+              <td>31 July 2026</td>
+            </tr>
+            <tr>
+              <td>On-site registration</td>
+              <td>6 August 2026</td>
+            </tr>
+            <tr>
+              <td>Workshop dates</td>
+              <td>7-8 August 2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </section>
   </main>
   <footer class="site-footer"><div class="footer-inner"><p>International Workshop on Digital Twin</p><p>Registration</p></div></footer>
