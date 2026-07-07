@@ -531,10 +531,11 @@ a {
   width: 100%;
   border-collapse: collapse;
   color: #0050a4;
-  font-size: 22px;
+  font-size: 23px;
   line-height: 1.25;
   border: 1px solid #cdd9e4;
   box-shadow: 0 8px 26px rgba(7, 47, 87, 0.08);
+  table-layout: fixed;
 }
 
 .speaker-table th {
@@ -549,6 +550,21 @@ a {
   border: 1px solid #cdd9e4;
   text-align: left;
   vertical-align: middle;
+}
+
+.speaker-panel {
+  max-width: 1280px;
+}
+
+.speaker-table th:first-child,
+.speaker-table td:first-child {
+  width: 31%;
+  white-space: nowrap;
+}
+
+.speaker-table th:last-child,
+.speaker-table td:last-child {
+  width: 69%;
 }
 
 .session-list {
@@ -1088,5 +1104,20 @@ h3 {
   .important-dates-table th,
   .important-dates-table td {
     padding: 12px 10px;
+  }
+
+  .speaker-table {
+    font-size: 18px;
+  }
+
+  .speaker-table th:first-child,
+  .speaker-table td:first-child {
+    width: 38%;
+    white-space: normal;
+  }
+
+  .speaker-table th:last-child,
+  .speaker-table td:last-child {
+    width: 62%;
   }
 }
