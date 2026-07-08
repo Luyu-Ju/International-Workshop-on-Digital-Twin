@@ -350,13 +350,13 @@ a {
 }
 
 .supported-grid-three .ismge-card img {
-  width: min(100%, 520px);
-  max-height: 118px;
+  width: min(100%, 590px);
+  max-height: 136px;
 }
 
 .supported-grid-three .hkie-card img {
-  width: min(100%, 410px);
-  max-height: 112px;
+  width: min(100%, 470px);
+  max-height: 128px;
 }
 
 .supported-grid-three .asce-card img {
