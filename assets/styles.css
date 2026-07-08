@@ -605,12 +605,14 @@ a {
 .programme-main,
 .committee-main {
   display: grid;
-  gap: 58px;
+  gap: 56px;
 }
 
 .programme-panel,
 .committee-panel {
-  max-width: 1120px;
+  width: 100%;
+  max-width: 1280px;
+  overflow-x: auto;
 }
 
 .programme-panel h2 {
@@ -621,7 +623,8 @@ a {
 }
 
 .programme-table {
-  width: 100%;
+  width: auto;
+  min-width: 900px;
   border-collapse: collapse;
   color: #111111;
   font-size: 25px;
@@ -629,12 +632,13 @@ a {
 }
 
 .programme-table td {
-  padding: 8px 10px;
+  padding: 8px 46px 8px 10px;
   vertical-align: top;
+  white-space: nowrap;
 }
 
 .programme-table td:first-child {
-  width: 34%;
+  width: 285px;
   white-space: nowrap;
 }
 
@@ -645,11 +649,12 @@ a {
 }
 
 .committee-table {
-  width: 100%;
+  width: auto;
+  min-width: 1180px;
   border-collapse: separate;
   border-spacing: 0 13px;
   color: #111111;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.15;
 }
 
@@ -659,13 +664,14 @@ a {
 }
 
 .committee-table td:first-child {
-  width: 26%;
-  min-width: 210px;
+  width: 265px;
+  min-width: 265px;
   white-space: nowrap;
 }
 
 .committee-table td:last-child {
-  width: 74%;
+  width: auto;
+  white-space: nowrap;
 }
 
 .venue-panel p,
