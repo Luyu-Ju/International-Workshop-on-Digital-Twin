@@ -325,43 +325,43 @@ a {
 }
 
 .supported-grid-three {
-  grid-template-columns: minmax(360px, 1fr) minmax(280px, 0.82fr);
-  column-gap: 80px;
-  row-gap: 12px;
+  grid-template-columns: 1.7fr 1.2fr 1fr;
+  column-gap: 42px;
+  row-gap: 0;
   align-items: center;
 }
 
 .supported-grid-three .ismge-card {
   grid-column: 1;
   grid-row: 1;
-  min-height: 86px;
+  min-height: 82px;
 }
 
 .supported-grid-three .hkie-card {
-  grid-column: 1;
-  grid-row: 2;
-  min-height: 86px;
+  grid-column: 2;
+  grid-row: 1;
+  min-height: 82px;
 }
 
 .supported-grid-three .asce-card {
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  justify-content: center;
+  grid-column: 3;
+  grid-row: 1;
+  justify-content: flex-start;
 }
 
 .supported-grid-three .ismge-card img {
-  width: min(100%, 620px);
+  width: min(100%, 430px);
   max-height: 86px;
 }
 
 .supported-grid-three .hkie-card img {
-  width: min(100%, 460px);
-  max-height: 82px;
+  width: min(100%, 320px);
+  max-height: 76px;
 }
 
 .supported-grid-three .asce-card img {
-  width: min(100%, 300px);
-  max-height: 132px;
+  width: min(100%, 250px);
+  max-height: 92px;
 }
 
 .contact-panel {
