@@ -415,6 +415,29 @@ a {
   font-weight: 700;
 }
 
+.registration-fees-simple {
+  margin-top: 14px;
+  margin-bottom: 34px;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  color: #111111;
+}
+
+.registration-fees-simple td {
+  padding: 0 12px;
+  border: 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.registration-fees-simple td:first-child {
+  width: 58%;
+}
+
+.registration-fees-simple td:last-child {
+  width: 42%;
+}
+
 .registration-notes {
   margin: 0;
   padding-left: 24px;
@@ -577,6 +600,72 @@ a {
   color: #0050a4;
   font-size: 21px;
   line-height: 1.25;
+}
+
+.programme-main,
+.committee-main {
+  display: grid;
+  gap: 58px;
+}
+
+.programme-panel,
+.committee-panel {
+  max-width: 1120px;
+}
+
+.programme-panel h2 {
+  margin: 0 0 26px;
+  color: #0050a4;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.programme-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #111111;
+  font-size: 25px;
+  line-height: 1.32;
+}
+
+.programme-table td {
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.programme-table td:first-child {
+  width: 34%;
+  white-space: nowrap;
+}
+
+.committee-panel h1 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.committee-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 13px;
+  color: #111111;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.committee-table td {
+  padding: 0 8px;
+  vertical-align: top;
+}
+
+.committee-table td:first-child {
+  width: 26%;
+  min-width: 210px;
+  white-space: nowrap;
+}
+
+.committee-table td:last-child {
+  width: 74%;
 }
 
 .venue-panel p,
@@ -1119,5 +1208,53 @@ h3 {
   .speaker-table th:last-child,
   .speaker-table td:last-child {
     width: 62%;
+  }
+
+  .registration-fees-simple td {
+    padding: 0 4px;
+    font-size: 21px;
+  }
+
+  .programme-main,
+  .committee-main {
+    gap: 42px;
+  }
+
+  .programme-panel h2 {
+    font-size: 22px;
+  }
+
+  .programme-table {
+    font-size: 20px;
+  }
+
+  .programme-table td {
+    display: block;
+    width: 100% !important;
+    padding: 4px 0;
+    white-space: normal !important;
+  }
+
+  .programme-table tr {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .committee-table {
+    border-spacing: 0 16px;
+    font-size: 17px;
+  }
+
+  .committee-table td {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 0;
+    white-space: normal !important;
+  }
+
+  .committee-table td:first-child {
+    margin-bottom: 3px;
+    font-weight: 700;
   }
 }
