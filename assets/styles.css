@@ -632,6 +632,54 @@ a {
   width: 69%;
 }
 
+.speaker-bio-panel {
+  max-width: 1160px;
+}
+
+.speaker-list {
+  display: grid;
+  gap: 26px;
+}
+
+.speaker-card {
+  padding: 24px 28px;
+  border: 1px solid #d7e4ef;
+  border-left: 6px solid #0050a4;
+  background: #ffffff;
+  box-shadow: 0 10px 26px rgba(7, 47, 87, 0.06);
+}
+
+.speaker-card h2 {
+  margin: 8px 0 8px;
+  color: #0050a4;
+  font-size: 30px;
+  line-height: 1.16;
+}
+
+.speaker-talk {
+  margin: 0;
+  color: #132f42;
+  font-size: 22px;
+  line-height: 1.28;
+  font-weight: 800;
+}
+
+.speaker-meta {
+  margin: 0 0 16px;
+  color: #315f82;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.speaker-card p:not(.speaker-talk):not(.speaker-meta) {
+  margin: 0;
+  color: #111111;
+  font-size: 18px;
+  line-height: 1.55;
+  text-align: justify;
+}
+
 .session-list {
   display: grid;
   gap: 24px;
@@ -1364,6 +1412,28 @@ h3 {
   .speaker-table th:last-child,
   .speaker-table td:last-child {
     width: 62%;
+  }
+
+  .speaker-list {
+    gap: 18px;
+  }
+
+  .speaker-card {
+    padding: 18px 16px;
+  }
+
+  .speaker-card h2 {
+    font-size: 25px;
+  }
+
+  .speaker-talk {
+    font-size: 19px;
+  }
+
+  .speaker-meta,
+  .speaker-card p:not(.speaker-talk):not(.speaker-meta) {
+    font-size: 16px;
+    text-align: left;
   }
 
   .registration-fees-simple td {
